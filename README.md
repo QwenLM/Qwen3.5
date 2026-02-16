@@ -114,26 +114,8 @@ transformers chat Qwen/Qwen3.5-397B-A17B
 #### llama.cpp
 
 [`llama.cpp`](https://github.com/ggml-org/llama.cpp) enables LLM inference with minimal setup and state-of-the-art performance on a wide range of hardware.
-`llama.cpp>=` is recommended for the full support of Qwen3.5.
-
-`llama-server` can be used to start an API server offering OpenAI and Anthropic compatibility  along with a Web UI:
-```shell
-llama-server -hf Qwen/Qwen3.5-397B-A17B-GGUF:Q4_K_M --port 8000 --jinja --reasoning-format deepseek --min-p 0 --no-context-shift
-```
-The API and the Web UI can be accessed at `http://localhost:8080`.
-
-If you would like to interact with the model in a text-only interface, `llama.cpp` also includes a command line interface, named `llama-cli`:
-```shell
-llama-cli -hf Qwen/Qwen3.5-397B-A17B-GGUF:Q4_K_M --jinja --color --min-p 0 --no-context-shift
-```
-
-> [!Note]
-> llama.cpp adopts "rotating context management" and infinite generation is made possible by evicting earlier tokens, which could lead to lost of context for long-horizon tasks.
-> We suggest disabling infinite generation by specifying `--no-context-shift`.
-
-<!-- #### LMStudio
-
-Qwen3.5 has already been supported by [lmstudio.ai](https://lmstudio.ai/). You can directly use LMStudio with our GGUF files. -->
+llama.cpp supports Qwen3.5 (text & vision).
+Look for models ending with GGUF on Hugging Face Hub.
 
 #### MLX LM
 
