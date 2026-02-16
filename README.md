@@ -133,7 +133,7 @@ Here we demonstrate the usage of `SGLang` and `vLLM`
 SGLang could be used to launch a server with OpenAI-compatible API service. 
 
 ```shell
-python -m sglang.launch_server --model-path Qwen/Qwen3.5-397B-A17B --port 8000 --tp-size 8 --context-length 262144 --mamba-ssm-dtype float32 --reasoning-parser qwen3
+python -m sglang.launch_server --model-path Qwen/Qwen3.5-397B-A17B --port 8000 --tp-size 8 --context-length 262144 --reasoning-parser qwen3
 ```
 
 An OpenAI-compatible API will be available at `http://localhost:30000/v1`.
@@ -144,7 +144,7 @@ An OpenAI-compatible API will be available at `http://localhost:30000/v1`.
 vLLM could be used to launch a server with OpenAI-compatible API service. 
 
 ```shell
-vllm serve Qwen/Qwen3.5-397B-A17B --port 8000 --tensor-parallel-size 8 --max-model-len 262144 --mamba-ssm-cache-dtype float32 --reasoning-parser qwen3
+vllm serve Qwen/Qwen3.5-397B-A17B --port 8000 --tensor-parallel-size 8 --max-model-len 262144 --reasoning-parser qwen3
 ```
 
 An OpenAI-compatible API will be available at `http://localhost:8000/v1`.
