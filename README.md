@@ -50,11 +50,6 @@ The official model weights are released on:
   You can also download model files manually using `modelscope download` or `git clone`.
   Please follow the instructions on the model page. 
 
-| Model  | Base | Post-Trained | FP8 | GGUF | 
-| :-- |  :-: | :-: | :-: | :-: | 
-| Qwen3.5-397B-A17B | [🤗](https://huggingface.co/Qwen/Qwen3.5-397B-A17B-Base) [🤖](https://modelscope.cn/models/Qwen/Qwen3.5-397B-A17B-Base) | [🤗](https://huggingface.co/Qwen/Qwen3.5-397B-A17B) [🤖](https://modelscope.cn/models/Qwen/Qwen3.5-397B-A17B) | [🤗](https://huggingface.co/Qwen/Qwen3.5-397B-A17B-FP8) [🤖](https://modelscope.cn/models/Qwen/Qwen3.5-397B-A17B-FP8) | [🤗](https://huggingface.co/Qwen/Qwen3.5-397B-A17B-GGUF) [🤖](https://modelscope.cn/models/Qwen/Qwen3.5-397B-A17B-GGUF) |
-
-
 ## Benchmarks
 
 ![Benchmark Results](https://qianwen-res.oss-accelerate.aliyuncs.com/Qwen3.5/Figures/qwen3.5_397b_a17b_score.png)
