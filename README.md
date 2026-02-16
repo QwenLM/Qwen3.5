@@ -111,10 +111,9 @@ transformers chat Qwen/Qwen3.5-397B-A17B
 llama.cpp supports Qwen3.5 (text & vision).
 Look for models ending with GGUF on Hugging Face Hub.
 
-#### MLX LM
+#### MLX (Apple Silicon)
 
-If you are running on Apple Silicon, [`mlx-lm`](https://github.com/ml-explore/mlx-lm) also supports Qwen3.5 (text-only). 
-Look for models ending with MLX on Hugging Face Hub.
+If you are running on Apple Silicon, both [`mlx-lm`](https://github.com/ml-explore/mlx-lm) (text-only) and [`mlx-vlm`](https://github.com/Blaizzy/mlx-vlm) (vision + text) support Qwen3.5. Look for models ending with **MLX** on the Hugging Face Hub.
 
 ### Deployment
 
