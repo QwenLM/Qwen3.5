@@ -57,6 +57,9 @@ The official model weights are released on:
 
 ## Benchmarks
 
+![Benchmark Results](https://qianwen-res.oss-accelerate.aliyuncs.com/Qwen3.5/Figures/qwen3.5_397b_a17b_score.png)
+
+For detailed results, please check out the [release blog](https://qwen.ai/blog?id=qwen3.5).
 
 ## Quickstart
 
