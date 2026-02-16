@@ -94,11 +94,6 @@ Check out [Qwen Agent](https://qwenlm.github.io/Qwen-Agent/en/) to find out more
 [`transformers`](https://huggingface.co/transformers) acts as the model-definition framework in the current open-weight LLM landscape.
 It also includes functionalities for LLM inference and training. The addition of serving capabilities in `transformers` makes it much easier to integrate new models in your development.
 
-Make sure necessary dependencies are installed:
-```shell
-pip install transformers[serving]
-```
-
 To launch a server, simply use the `transformers serve` command:
 ```shell
 transformers serve --port 8000 --continuous-batching
