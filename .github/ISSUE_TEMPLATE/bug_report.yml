@@ -1,0 +1,76 @@
+name: 🐞 Bug Report
+description: Something unexpected happened, errors or badcases
+body:
+  - type: markdown
+    attributes:
+      value: |
+        **We appreciate your time and effort in filing this report. ❤**
+
+        Issues are a vital part of open-source collaboration. They help identify and resolve real-world problems, improve the project for everyone, and create a transparent, well-documented knowledge base that benefits the entire community. **By reporting an issue, you're not just solving a problem for yourself --- you're helping others who may encounter the same challenge.**
+
+        To ensure your issue is addressed efficiently and effectively, please follow these guidelines when submitting:
+
+        1.  **Use English**  
+            Please write your issue in English. This ensures the widest possible audience can understand and contribute. Most translation tools also work best with English, making your report more accessible globally.
+
+        2.  **Choose a clear and descriptive title**  
+            Your title should summarize the issue clearly and include relevant details such as the model ID (e.g., `Qwen3.5-397B-A17B`) and the framework or environment (e.g., `transformers`, `vllm`).  
+            Example: `Qwen3.5-397B-A17B generates gibberish with SGLang under CUDA 13.0`
+
+        3.  **Provide reproducible steps**  
+            Help us help you: include a minimal, self-contained code snippet and clear instructions to reproduce the issue. Be sure to specify:
+            - Your environment (OS, Python version, package versions)
+            - The exact commands or code used; the prompts and the sampling parameters in terms of badcases
+            - Expected vs. actual behavior
+
+        4.  **Be precise and concise**  
+            - Focus on **one issue per report**. If you have multiple bugs, please open separate issues.
+            - Include only the context and code necessary to understand and reproduce the problem.
+            - Think of your issue as a future reference for others --- aim to make it a helpful documentation entry.
+
+
+        Also keep in mind that this repository is dedicated to the open-weight versions of the **Qwen language models**. 
+        - For **Qwen-Coder**, **Qwen-Omni**, or other specialized models, refer to their respective repositories.
+        - For **Qwen API services** or closed-source variants, please contact Alibaba Cloud support directly.
+        - For **Qwen Chat** or other applications, please contact their support.
+
+  - type: textarea
+    attributes:
+      label: Description
+      description: |
+        Please describe the problem you have encountered.
+    validations:
+      required: true
+
+  - type: textarea
+    attributes:
+      label: Reproduction
+      description: | 
+        Please provide minimal reproducible code.
+    validations:
+      required: true
+
+  - type: textarea
+    attributes:
+      label: Logs
+      description: | 
+        Please copy and paste any relevant log output. This will be automatically formatted into code, so no need for backticks.
+        If the log is too long, feel free to put it in a public gist and link it in the issue: https://gist.github.com. 
+      render: shell
+    validations:
+      required: false
+
+  - type: textarea
+    attributes:
+      label: Environment Information
+      description: |
+        Please provide information about you environment, e.g., the software versions and the information on the OS, GPUs, CUDA, and NVIDIA Driver if GPUs are used.
+    validations:
+      required: true
+  
+  - type: checkboxes
+    attributes:
+      label: Known Issue
+      options:
+        - label: The issue hasn't been already addressed in Documentation, Issues, and Discussions.
+  

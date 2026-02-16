@@ -1,0 +1,11 @@
+blank_issues_enabled: false
+contact_links:
+  - name: 🚀 Feature Request
+    url: https://github.com/QwenLM/Qwen3.5/discussions/categories/polls
+    about: Create a poll and see if others are interested in a new feature as well
+  - name: 🙏 Question
+    url: https://github.com/QwenLM/Qwen3.5/discussions/categories/q-a
+    about: Quick question, what/when/where/why/how ...
+  - name: 💬 General Discussion
+    url: https://github.com/QwenLM/Qwen3.5/discussions/categories/general
+    about: Discuss in general
