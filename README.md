@@ -23,7 +23,7 @@ Over recent months, we have intensified our focus on developing foundation model
 
 Qwen3.5 features the following enhancement:
 
-- **Unified Vision-Language Foundation**: Early fusion training on 45 trillion multimodal tokens achieves cross-generational parity with Qwen3 and outperforms Qwen3-VL models across reasoning, coding, agents, and visual understanding benchmarks.
+- **Unified Vision-Language Foundation**: Early fusion training on trillions of multimodal tokens achieves cross-generational parity with Qwen3 and outperforms Qwen3-VL models across reasoning, coding, agents, and visual understanding benchmarks.
 
 - **Efficient Hybrid Architecture**: Gated Delta Networks combined with sparse Mixture-of-Experts deliver high-throughput inference with minimal latency and cost overhead.
 
