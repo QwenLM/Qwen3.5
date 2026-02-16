@@ -41,7 +41,7 @@ Qwen3.5 features the following enhancement:
 ## Models
 
 The official model weights are released on:
-- [🤗Hugging Face Hub](https://huggingface.co/QwenLM): Most LLM frameworks and applications support downloading model files from Hugging Face Hub automatically by specifying the model ID, e.g., `Qwen/Qwen3.5-397B-A17B`. 
+- [🤗Hugging Face Hub](https://huggingface.co/Qwen): Most LLM frameworks and applications support downloading model files from Hugging Face Hub automatically by specifying the model ID, e.g., `Qwen/Qwen3.5-397B-A17B`. 
   You can also download model files manually using `huggingface download` or `git clone`.
   Please follow the instructions on the model page. 
 - [🤖ModelScope](https://www.modelscope.cn/organization/Qwen): For users unable to access Hugging Face Hub, we strongly recommend using ModelScope. 
