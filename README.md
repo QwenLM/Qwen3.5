@@ -6,16 +6,15 @@
     <a href="https://chat.qwen.ai/">💜 <b>Qwen Chat</b></a> |
     <a href="https://huggingface.co/Qwen">🤗 Hugging Face</a> | 
     <a href="https://modelscope.cn/organization/qwen">🤖 ModelScope</a> | 
-    <a href="#">📑 Paper</a> |
+    📑 Paper |
     <a href="https://qwen.ai/blog?id=qwen3.5">📑 Blog</a> |
-    <a href="https://qwenlm.github.io/Qwen3.5/">📖 Documentation</a> |
-    <a href="">🖥️ Demo</a> |
+    📖 Documentation |
     <a href="https://github.com/QwenLM/Qwen/blob/main/assets/wechat.png">💬 WeChat (微信)</a> |
     <a href="https://discord.gg/CV4E9rpNSD">🫨 Discord</a>   
   </p>
 </div>
 
-Welcome to the GitHub repository of Qwen3.5. Here, you can find official information about Qwen3.5 ([User Guide](https://qwenlm.github.io/Qwen3.5), coming soon), post your questions ([Issues](https://github.com/QwenLM/Qwen3.5/issues)), and share your ideas with the community ([Discussions](https://github.com/QwenLM/Qwen3.5/discussions)).
+Welcome to the GitHub repository of Qwen3.5. Here, you can find official information about Qwen3.5 (User Guide, coming soon), post your questions ([Issues](https://github.com/QwenLM/Qwen3.5/issues)), and share your ideas with the community ([Discussions](https://github.com/QwenLM/Qwen3.5/discussions)).
 
 ## Introduction
 
@@ -58,7 +57,7 @@ For detailed results, please check out the [release blog](https://qwen.ai/blog?i
 
 ## Quickstart
 
-To learn more about Qwen3.5, feel free to read [our documentation, coming soon](https://qwenlm.github.io/Qwen3.5/).
+To learn more about Qwen3.5, feel free to read our documentation (coming soon).
 
 ### Official
 
