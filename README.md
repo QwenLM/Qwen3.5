@@ -158,7 +158,7 @@ You can find the license files in the respective Hugging Face repositories.
 If you find our work helpful, feel free to give us a cite.
 
 ```bibtex
-@misc{qwen3.5
+@misc{qwen3.5,
     title  = {{Qwen3.5}: Towards Native Multimodal Agents},
     author = {{Qwen Team}},
     month  = {February},
