@@ -35,6 +35,7 @@ Qwen3.5 features the following enhancement:
 
 ## News
 
+- 2026-02-24: Qwen3.5-122B-A10B, Qwen3.5-35B-A3B, and Qwen3.5-27B are released. Check out the model cards on [Hugging Face Hub](https://huggingface.co/collections/Qwen/qwen35) or [ModelScope](https://modelscope.cn/collections/Qwen/Qwen35) for more information!
 - 2026-02-16: We release Qwen3.5. The first release includes a 397B-A17B MoE model. Read more on our [release blog](https://qwen.ai/blog?id=qwen3.5). More sizes are coming & Happy Chinese New Year!
 - 2025-09-11: We release Qwen3-Next-80B-A3B, an ultra-sparse mixture-of-experts model with hybrid attention architecture, designed for extreme efficiency. Read more on our [blog](https://qwen.ai/blog?id=qwen3-next)
 
@@ -102,7 +103,7 @@ OpenAI-compatible APIs can be accessed at `http://localhost:8000/v1` and the ser
 
 With the server running, you can also interact with Qwen3.5 directly from the command line:
 ```shell
-transformers chat Qwen/Qwen3.5-397B-A17B
+transformers chat Qwen/Qwen3.5-35B-A3B
 ```
 
 #### llama.cpp
@@ -126,7 +127,7 @@ Here we demonstrate the usage of `SGLang` and `vLLM`
 SGLang could be used to launch a server with OpenAI-compatible API service. 
 
 ```shell
-python -m sglang.launch_server --model-path Qwen/Qwen3.5-397B-A17B --port 8000 --tp-size 8 --context-length 262144 --reasoning-parser qwen3
+python -m sglang.launch_server --model-path Qwen/Qwen3.5-35B-A3B --port 8000 --tp-size 4 --context-length 262144 --reasoning-parser qwen3
 ```
 
 An OpenAI-compatible API will be available at `http://localhost:30000/v1`.
@@ -137,7 +138,7 @@ An OpenAI-compatible API will be available at `http://localhost:30000/v1`.
 vLLM could be used to launch a server with OpenAI-compatible API service. 
 
 ```shell
-vllm serve Qwen/Qwen3.5-397B-A17B --port 8000 --tensor-parallel-size 8 --max-model-len 262144 --reasoning-parser qwen3
+vllm serve Qwen/Qwen3.5-35B-A3B --port 8000 --tensor-parallel-size 4 --max-model-len 262144 --reasoning-parser qwen3
 ```
 
 An OpenAI-compatible API will be available at `http://localhost:8000/v1`.
