@@ -35,6 +35,7 @@ Qwen3.5 features the following enhancement:
 
 ## News
 
+- 2026-02-28: Qwen3.5-9B and Qwen3.5-4B are now available on [Hugging Face Hub](https://huggingface.co/collections/Qwen/qwen35) and [ModelScope](https://modelscope.cn/collections/Qwen/Qwen35)! Final batch of models coming soon.
 - 2026-02-24: Qwen3.5-122B-A10B, Qwen3.5-35B-A3B, and Qwen3.5-27B are released. Check out the model cards on [Hugging Face Hub](https://huggingface.co/collections/Qwen/qwen35) or [ModelScope](https://modelscope.cn/collections/Qwen/Qwen35) for more information!
 - 2026-02-16: We release Qwen3.5. The first release includes a 397B-A17B MoE model. Read more on our [release blog](https://qwen.ai/blog?id=qwen3.5). More sizes are coming & Happy Chinese New Year!
 - 2025-09-11: We release Qwen3-Next-80B-A3B, an ultra-sparse mixture-of-experts model with hybrid attention architecture, designed for extreme efficiency. Read more on our [blog](https://qwen.ai/blog?id=qwen3-next)
@@ -52,7 +53,9 @@ The official model weights are released on:
 
 ## Benchmarks
 
-![Benchmark Results](https://qianwen-res.oss-accelerate.aliyuncs.com/Qwen3.5/Figures/qwen3.5_397b_a17b_score.png)
+![Qwen3.5-397B-A17B Benchmark Results](https://qianwen-res.oss-accelerate.aliyuncs.com/Qwen3.5/Figures/qwen3.5_397b_a17b_score.png)
+
+![Qwen3.5-122B-A10B, Qwen3.5-35B-A3B, and Qwen3.5-27B Benchmark Results](https://qianwen-res.oss-accelerate.aliyuncs.com/Qwen3.5/Figures/qwen3.5_middle_size_score.png)
 
 For detailed results, please check out the [release blog](https://qwen.ai/blog?id=qwen3.5).
 
